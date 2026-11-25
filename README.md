@@ -68,3 +68,8 @@ The bouquet blooms from the soil upward in **2.8s**. The song is trimmed to **71
 
 - `flower-bouquet.html` — the complete, standalone experience
 - `audio.mp3` — original source audio embedded in the HTML
+- `LICENSE` — MIT license
+
+## License
+
+Released under the [MIT License](LICENSE). See `LICENSE` for the full text.
