@@ -11,6 +11,17 @@ Open [`flower-bouquet.html`](flower-bouquet.html) in a browser and press **▶ p
 - **Fullscreen on start.** Clicking the start button requests fullscreen from the same user gesture. If a browser refuses fullscreen, everything still plays normally in the page.
 - **At the end**, the button changes to **reia poemul** to play it again.
 
+## Phones
+
+The page adapts to phones automatically:
+
+- the ASCII bouquet scales to the screen width and stays centered
+- the poem uses tighter line spacing and a readable text size
+- the farewell line fits the screen
+- the start/replay button has a touch-friendly target
+- safe-area insets are respected on notched devices, and dynamic viewport height keeps mobile browser chrome from cutting anything off
+- fullscreen is requested with standard and `webkit` APIs; if a mobile browser doesn't allow it, playback continues normally
+
 ## Timing
 
 | Time | What happens |
